@@ -318,6 +318,13 @@ ax2.imshow(CSmap)
 ax2.set_title('MDC')
 ax2.set_yticklabels([])
 ax2.set_xticklabels([])
+end_time = time.time()
+
+
+P_time = end_time - start_time
+print(P_time)
+
+
 # =============================================================================  
     
 # =============================================================================
